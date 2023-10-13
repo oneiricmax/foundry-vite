@@ -4,6 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/foundry-vite/",
   plugins: [react()],
   build: {
     outDir: path.join(__dirname, "_static")
